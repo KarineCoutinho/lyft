@@ -1,3 +1,12 @@
 /*
- * Estilos de tu proyecto
+ font-family: 'Montserrat', sans-serif;
  */
+
+.foto {
+    background-image: url(../assets/images/hero.gif);
+    background-repeat: no-repeat;
+
+}
+/* #gif{
+    background: url(assets/images/hero.gif);
+} */
