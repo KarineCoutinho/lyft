@@ -1,12 +1,219 @@
-/*
- font-family: 'Montserrat', sans-serif;
- */
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.backgroundPurple{
+    background: linear-gradient(#1b1131, #76278F);
+}
 
-.foto {
+#headerContainer {
     background-image: url(../assets/images/hero.gif);
     background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -105px;
+    width: 100%;
+    height: 650px;
+    margin: 0px;
+    padding: 0; 
+    box-sizing: border-box;  
+}
+
+nav{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    color: red;
+    width: 100%;
+    height: 113px;
+    margin: 0px;
+    padding: 0px;
+  
+}
+.logoWhite{
+    padding: 85px;
+    width: 65px;
+    height: 45px;   
+}
+.menu{
+    display: flex;
+    padding: 179px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 26px;
+    position: relative;
+    /* top: 12px; */
 
 }
-/* #gif{
-    background: url(assets/images/hero.gif);
-} */
+.menu li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 90px;
+    position: relative;
+    top: 11px;
+}
+ul .loginBox{
+    border: 1px solid red;
+    border-radius: 6px;
+    text-align: center;
+    height: 35px;
+    width: 94px;
+    padding: 8px 0 0;
+    position: relative;
+    top: 0px;
+}
+.signIn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.signInContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    color: #728099;
+    width: 424px;
+    height: 420px;
+    margin-top: 4px;
+    padding: 0px 63px 0 63px;
+    position: relative;
+}
+.titleSign{
+    font-size: 37.5px;
+    font-weight: 800;
+    line-height: 39px;
+    color: #352384;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 62px;
+}
+.subtitleSign{
+    color: #352384;
+    font-size: 13px;
+    line-height: 39px;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 144px;
+}
+button{
+    background-color: #FF00BF;
+    position: relative;
+    box-sizing: content-box;
+    padding: 13px;
+    font-size: 19px;
+    text-align: center;
+    font-weight: 300;
+    border-radius: 7px;
+    color: white;
+    border: 0px;
+}
+input{
+    border-color: #728099;
+    /* color: #728099; */
+    padding: 11px;
+    height: 1px;
+    width: 404px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-bottom: 18px;
+    border-top: 0px;
+    position: absolute;
+    top: 205px;
+}
+.withTheButton{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 264px;
+    font-weight: 400;
+}
+.withTheButton a{
+    padding: 14px;
+}
+.signInContainer p{
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 18px;
+    position: absolute;
+    top: 333px;
+}
+.shadow{
+    width: 100%;
+    box-shadow:  0px 0px 70px 75px #76278F ;
+}
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0;
+    position: relative;
+    top: -40px;
+    height: 521px;
+}
+.aboutContainer h3{
+    font-size: 27px;
+    font-weight: 600;
+    margin: 0;
+}
+.aboutContainer p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.1px;
+}
+.aboutContainer .aboutTexts{
+    padding: 0px;
+    margin: 0px;
+    width: 562px;
+    height: 459px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    top: 11px;
+
+}
+.aboutContainer .about{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+}
+.aboutImage img{
+    width: 472px;
+}
+.watch{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.watchText{
+    width: 30%;
+    font-weight: 700;
+    letter-spacing: -1.3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 28px 55px;
+}
+.watchText small{
+    font-size: 11px;
+   
+}
+.watchText h2{
+    font-size: 28px;
+    margin: 0;
+}
+.watchText p{
+    font-size: 17px;
+    line-height: 23px;
+    margin: 24px 0;
+}
+.watchVideo{
+    width: 79%; 
+}
