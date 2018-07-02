@@ -245,6 +245,11 @@ ul{
 .footerColumn{
     list-style: none;
     width: 21.7%;
+    
+}
+.footerColumn a{
+    text-decoration: none;
+    color: white;
 }
 .footerInformation img{
     width: 131px;
@@ -278,4 +283,7 @@ footer i{
 footer small{
     font-size: 15px;
     letter-spacing: 0.3px;
+}
+a:hover{
+    color: #FF00BF;
 }
