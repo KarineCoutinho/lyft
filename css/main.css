@@ -23,7 +23,7 @@ nav{
     position: relative;
     justify-content: space-between;
     align-items: center;
-    color: red;
+    color: white;
     width: 100%;
     height: 113px;
     margin: 0px;
@@ -42,8 +42,7 @@ nav{
     font-weight: 400;
     margin-top: 26px;
     position: relative;
-    /* top: 12px; */
-
+    top: -16px;
 }
 .menu li{
     list-style: none;
@@ -54,14 +53,14 @@ nav{
     top: 11px;
 }
 ul .loginBox{
-    border: 1px solid red;
+    border: 1px solid white;
     border-radius: 6px;
     text-align: center;
     height: 35px;
     width: 94px;
-    padding: 8px 0 0;
+    padding: 0px 0 8px;
     position: relative;
-    top: 0px;
+    top: 7px;
 }
 .signIn{
     width: 100%;
@@ -103,8 +102,8 @@ button{
     background-color: #FF00BF;
     position: relative;
     box-sizing: content-box;
-    padding: 13px;
-    font-size: 19px;
+    padding: 14px 20px;
+    font-size: 17px;
     text-align: center;
     font-weight: 300;
     border-radius: 7px;
@@ -112,15 +111,15 @@ button{
     border: 0px;
 }
 input{
-    border-color: #728099;
-    /* color: #728099; */
-    padding: 11px;
+    padding: 11px 0;
     height: 1px;
-    width: 404px;
+    width: 427px;
     border-left: 0px;
     border-right: 0px;
     margin-bottom: 18px;
     border-top: 0px;
+    border-bottom: 1px solid #728099;
+    font-size: 15px;
     position: absolute;
     top: 205px;
 }
@@ -132,18 +131,19 @@ input{
     font-weight: 400;
 }
 .withTheButton a{
-    padding: 14px;
+    padding: 14px 24px;
+    font-size: 16px;
 }
 .signInContainer p{
     font-size: 10px;
     font-weight: 300;
-    line-height: 18px;
+    line-height: 20px;
     position: absolute;
-    top: 333px;
+    top: 332px;
 }
 .shadow{
-    width: 100%;
-    box-shadow:  0px 0px 70px 75px #76278F ;
+    width: 92%;
+    box-shadow: 21px 7px 73px 80px #76278F;
 }
 .aboutContainer{
     display: flex;
@@ -193,7 +193,7 @@ input{
 }
 .watchText{
     width: 30%;
-    font-weight: 700;
+    
     letter-spacing: -1.3px;
     display: flex;
     flex-direction: column;
@@ -203,17 +203,79 @@ input{
 }
 .watchText small{
     font-size: 11px;
+    font-weight: 700;
    
 }
 .watchText h2{
     font-size: 28px;
+    font-weight: 700;
     margin: 0;
 }
 .watchText p{
     font-size: 17px;
+    font-weight: 500;
     line-height: 23px;
     margin: 24px 0;
 }
 .watchVideo{
     width: 79%; 
+}
+.footerContainer{
+    background-color: #333447;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+    height: 537px;
+}
+.footerInformation{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 44px 0 0 135px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 47px;
+}
+.footerColumn{
+    list-style: none;
+    width: 21.7%;
+}
+.footerInformation img{
+    width: 131px;
+    height: 40px;
+    padding-bottom: 0px;
+    padding-top: 23px;
+}
+footer hr{
+    width: 755px;
+    margin-top: 24px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+footer{
+    position: relative;
+    top: 73px;
+    text-align: center;
+}
+footer .icons{
+    display: flex;
+    justify-content: center;
+}
+footer i{
+    width: 18px;
+    height: 18px;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 7px 7px 7px;
+    margin: 0 33px;
+}
+footer small{
+    font-size: 15px;
+    letter-spacing: 0.3px;
 }
